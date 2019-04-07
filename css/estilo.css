@@ -1,0 +1,70 @@
+@font-face {
+  font-family: nunito;
+  src: url(../fonts/Nunito-Regular.ttf);
+}
+body
+{
+	background: #333;
+	font-family: nunito;
+}
+#card-principal
+{
+	margin-top: 1.5rem;
+	background: #282828;
+	color: #f1f1f1;
+}
+#card-principal .nav-link
+{
+	border-radius: 0;	
+	background:#333;
+	color: #f1f1f1;
+}
+#card-principal .active
+{
+	background:#26a69a;
+}
+.list-group-item
+{
+	background:none;
+}
+.card-title
+{
+	margin-top: 1.5rem;
+	margin-bottom: 2rem;
+}
+h1
+{
+	font-size: 18pt;
+	text-transform: uppercase;
+}
+.entrada-estilo
+{
+	background: none;
+	border:none;
+	border-bottom: 1px solid white;
+	border-radius: 0;
+	color: #f1f1f1;
+}
+.entrada-estilo:active,.entrada-estilo:focus
+{
+	background: none;
+	outline:none;
+	box-shadow: none;
+	color: #f1f1f1;
+	border-bottom: 1px solid #26a69a ;
+}
+.entrada-estilo:focus option
+{
+	background: #333;
+}
+.btn-cadastrar
+{
+	border-radius: 0;	
+	background:#26a69a;
+	color: #f1f1f1;
+}
+.btn-cadastrar:hover
+{
+	background:#009688;
+	color: inherit;
+}
